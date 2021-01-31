@@ -12,7 +12,7 @@ img {
     padding: var(--spacing);
     background: var(--base);
     filter: blur(var(--blur));
-    width: 55%;
+    width: 35%;
 }
 
 
@@ -28,6 +28,7 @@ body {
     color: white;
     text-shadow: 2px 2px 3px black;
     font-family: 'Coda Caption', sans-serif;
+    overflow: hidden;
 }
 
 .controls {
