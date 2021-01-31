@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello!</h1>
+    <h1>Power of <span class="h1">JS</span></h1>
+    <div class="controls">
+        <!-- spacing input -->
+        <label for="spacing">Spacing</label>
+            <input type="range" name="spacing" min="10" max="200" value="10" data-sizing="px">
+        <!-- blur input -->
+        <label for="blur">Blur</label>
+            <input type="range" name="blur" min="0" max="25" value="10" data-sizing="px">
+        <!-- color input -->
+        <label for="color">Color</label>
+        <input type="color" name="base" value="#0000FF">
+    </div>
+    <img src="/images/background.jpg" alt="palm trees panorama">
     <script src="script.js"></script>
 </body>
 </html>
